@@ -29,13 +29,14 @@ print(score)
 
 # ADDITIONAL VISUALIZATIONS
 
+"""
 # DECISION TREE
 # Displays the DecisionTreeRegressor model in a visual graph
 
 plt.figure(figsize=(15, 10))
 plot_tree(model, filled=True, feature_names=X.columns)
 plt.show()
-
+"""
 """
 # FEATURE IMPORTANCE
 # Shows the importance of each feature in the Decision Tree
